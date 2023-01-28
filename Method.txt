@@ -1,0 +1,98 @@
+Method : Method is group or block of code.
+
+Syntax : Access_Modifier return_type  methodname(parameters/argument){
+
+           }
+
+Example :
+
+package classAndObject;
+
+public class MethodDemo {
+
+	
+	
+	public void welcome() {
+		System.out.println("Welcome To Bikkad IT");
+		System.out.println("I want to Become java Developer");
+	}
+	
+	public static void main(String[] args) {
+		
+		MethodDemo m=new MethodDemo();
+		m.welcome();
+	}
+}
+
+
+Example :
+
+
+package classAndObject;
+
+public class MethodDemo {
+
+	public void welcome() {
+		System.out.println("Welcome To Bikkad IT");
+		System.out.println("I want to Become java Developer");
+	}
+
+	public void greet() {
+		System.out.println("Good Evening");
+		System.out.println("Good Night");
+	}
+
+	public static void main(String[] args) {
+
+		MethodDemo m = new MethodDemo();
+		m.welcome();
+		m.greet();
+	}
+}
+
+
+
+Example :
+
+
+package addition;
+
+public class AdditionDemo {
+
+	public void add() {
+		int a = 10;
+		int b = 20;
+		int c = a + b;
+		System.out.println("addition : " + c);
+	}
+
+	public static void main(String[] args) {
+
+		AdditionDemo a=new AdditionDemo();
+		a.add();
+	}
+
+}
+
+
+Example :
+
+
+package substraction;
+
+public class SubDemo {
+
+	public void sub() {
+		int a=20;
+		int b=10;
+		int c=a-b;
+		System.out.println("Substraction : "+ c );
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		SubDemo s=new SubDemo();
+		s.sub();
+	}
+}
